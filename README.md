@@ -57,7 +57,7 @@ One example is providing `defaults` to components via attributes.
 
 ```js
 import Ember from 'ember';
-import { or } from 'ember-improved-cp';
+import { or } from 'ember-improved-cp/read-only';
 
 export default Ember.Computed.extend({
   _defaultName: 'Anonymous Coward',
