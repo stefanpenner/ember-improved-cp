@@ -1,6 +1,6 @@
 # Ember-improved-cp
 
-An addon to provide and experiment with different computed property patterns
+An addon to provide and experiment with different computed property patterns.
 
 ### readOnly by default
 
@@ -12,7 +12,7 @@ we can still benefit from this convention.
 Today, we can easily mark any computed property as `readOnly`, but wouldn't it
 be nicer if it was the default?
 
-Your in luck, simply import your computer properties and computed macros from
+Your in luck, simply import your computed properties and computed macros from
 the `ember-improved-cp/read-only` module, and you live in a readOnly by default world.
 
 ```js
@@ -52,14 +52,14 @@ import computed, {
 One example is providing `defaults` to components via attributes.
 
 ```hbs
-{{blog-commpent author=user.name}}
+{{blog-component author=user.name}}
 ```
 
 ```js
 import Ember from 'ember';
 import { or } from 'ember-improved-cp/read-only';
 
-export default Ember.Computed.extend({
+export default Ember.Component.extend({
   _defaultName: 'Anonymous Coward',
   _name: or('author', '_defaultName')
 })
