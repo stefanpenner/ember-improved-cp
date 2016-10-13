@@ -12,7 +12,7 @@ we can still benefit from this convention.
 Today, we can easily mark any computed property as `readOnly`, but wouldn't it
 be nicer if it was the default?
 
-Your in luck, simply import your computed properties and computed macros from
+You're in luck, simply import your computed properties and computed macros from
 the `ember-improved-cp/read-only` module, and you live in a readOnly by default world.
 
 ```js
