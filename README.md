@@ -1,4 +1,5 @@
 # Ember-improved-cp
+[![Build Status](https://travis-ci.org/stefanpenner/ember-improved-cp.svg?branch=master)](https://travis-ci.org/stefanpenner/ember-improved-cp)
 
 An addon to provide and experiment with different computed property patterns.
 
