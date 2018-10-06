@@ -13,7 +13,7 @@
     "test": "ember test",
     "test:all": "ember try:each"
   },
-  "repository": "",
+  "repository": "stefanpenner/ember-improved-cp",
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
